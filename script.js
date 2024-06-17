@@ -12,7 +12,7 @@ divrow2.classList.add("row","text-center");
 
 const title=document.createElement("h1")
 title.id="title";
-title.innerHTML="Calculater";
+title.innerHTML="Calculator";
 
 const description=document.createElement("p");
 
