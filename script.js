@@ -55,7 +55,7 @@ divrow5.classList.add("row","mb-2");
 
 const divr5col1= document.createElement("div");
 
-divr5col1.classList.add("col");
+divr5col1.classList.add("col-3");
 
 
 const clear=create("button", "clear", "btn-border", "p-lg-4","p-3", "C", "type", "button");
@@ -64,7 +64,7 @@ divr5col1.append(clear);
 
 const divr5col2= document.createElement("div");
 
-divr5col2.classList.add("col");
+divr5col2.classList.add("col-3");
 
 const back=create("button", "back", "btn", "p-4", "border", "<-", "type", "button");
 
@@ -72,14 +72,14 @@ divr5col2.append(back);
 
 const divr5col3= document.createElement("div");
 
-divr5col3.classList.add("col");
+divr5col3.classList.add("col-3");
 const dot=create("button", "dot", "btn", "p-4","border",  ".", "type", "button");
 
 divr5col3.append(dot);
 
 const divr5col4= document.createElement("div");
 
-divr5col4.classList.add("col");
+divr5col4.classList.add("col-3");
 
 const multiply=create("button", "multiply", "btn-border", "p-4","text-primary", "X", "type", "button");
 
@@ -93,7 +93,7 @@ divrow6.classList.add("row","mb-2");
 
 const divr6col1= document.createElement("div");
 
-divr6col1.classList.add("col");
+divr6col1.classList.add("col-3");
 
 
 const seven=create("button", "7", "btn", "p-4","border", "7", "type", "button");
@@ -102,7 +102,7 @@ divr6col1.append(seven);
 
 const divr6col2= document.createElement("div");
 
-divr6col2.classList.add("col");
+divr6col2.classList.add("col-3");
 
 const eight=create("button", "8", "btn", "p-4", "border", "8", "type", "button");
 
@@ -110,14 +110,14 @@ divr6col2.append(eight);
 
 const divr6col3= document.createElement("div");
 
-divr6col3.classList.add("col");
+divr6col3.classList.add("col-3");
 const nine=create("button", "9", "btn", "p-4","border",  "9", "type", "button");
 
 divr6col3.append(nine);
 
 const divr6col4= document.createElement("div");
 
-divr6col4.classList.add("col");
+divr6col4.classList.add("col-3");
 
 const divide=create("button", "divide", "btn-border", "p-4","text-primary", "/", "type", "button");
 
@@ -131,7 +131,7 @@ divrow7.classList.add("row","mb-2");
 
 const divr7col1= document.createElement("div");
 
-divr7col1.classList.add("col");
+divr7col1.classList.add("col-3");
 
 
 const four=create("button", "4", "btn", "p-4","border", "4", "type", "button");
@@ -140,7 +140,7 @@ divr7col1.append(four);
 
 const divr7col2= document.createElement("div");
 
-divr7col2.classList.add("col");
+divr7col2.classList.add("col-3");
 
 const five=create("button", "5", "btn", "p-4", "border", "5", "type", "button");
 
@@ -148,14 +148,14 @@ divr7col2.append(five);
 
 const divr7col3= document.createElement("div");
 
-divr7col3.classList.add("col");
+divr7col3.classList.add("col-3");
 const six=create("button", "6", "btn", "p-4","border",  "6", "type", "button");
 
 divr7col3.append(six);
 
 const divr7col4= document.createElement("div");
 
-divr7col4.classList.add("col");
+divr7col4.classList.add("col-3");
 
 const subtract=create("button", "subtract", "btn-border", "p-4","text-primary", "-", "type", "button");
 
@@ -170,7 +170,7 @@ divrow8.classList.add("row","mb-2");
 
 const divr8col1= document.createElement("div");
 
-divr8col1.classList.add("col");
+divr8col1.classList.add("col-3");
 
 
 const one=create("button", "1", "btn", "p-4","border", "1", "type", "button");
@@ -179,7 +179,7 @@ divr8col1.append(one);
 
 const divr8col2= document.createElement("div");
 
-divr8col2.classList.add("col");
+divr8col2.classList.add("col-3");
 
 const two=create("button", "2", "btn", "p-4", "border", "2", "type", "button");
 
@@ -187,14 +187,14 @@ divr8col2.append(two);
 
 const divr8col3= document.createElement("div");
 
-divr8col3.classList.add("col");
+divr8col3.classList.add("col-3");
 const three=create("button", "3", "btn", "p-4","border",  "3", "type", "button");
 
 divr8col3.append(three);
 
 const divr8col4= document.createElement("div");
 
-divr8col4.classList.add("col");
+divr8col4.classList.add("col-3");
 
 const add=create("button", "add", "btn-border", "p-4","text-primary", "+", "type", "button");
 
@@ -226,7 +226,7 @@ const divr9col5 =document.createElement("div");
 
 
 
-divr9col5.classList.add("col","bg-primary","p-2", "pb-2","mx-lg-4","ml-5");
+divr9col5.classList.add("col-6","bg-primary","p-2", "pb-2");
 //const equal=create("button", "equal", "btn-border", "p-4","text-white", "=", "type", "button");
 
 
