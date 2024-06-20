@@ -58,7 +58,7 @@ const divr5col1= document.createElement("div");
 divr5col1.classList.add("col-3");
 
 
-const clear=create("button", "clear", "btn-border", "p-lg-4","p-3", "C", "type", "button");
+const clear=create("button", "clear", "btn","border","p-4", "C", "type", "button");
 
 divr5col1.append(clear);
 
