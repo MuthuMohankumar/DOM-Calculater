@@ -1,9 +1,9 @@
 const divrow = document.createElement('div');
-divrow.classList.add("row","text-center" , "d-flex", "justify-content-center", "m-5");
+divrow.classList.add("row","text-center" , "d-flex", "justify-content-center", "m-lg-5","m-2");
 
 const divcol=document.createElement('div');
 
-divcol.classList.add("col-6");
+divcol.classList.add("col","col-lg-6");
 const divrow1=document.createElement('div');
 
 divrow1.classList.add("row","text-center");
@@ -24,7 +24,7 @@ divrow1.append(title);
 divrow2.append(description);
 
 const divrow3=document.createElement("div");
-divrow3.classList.add("row","border","p-3", "bg-light");
+divrow3.classList.add("row","border","p-lg-3","p-sm-1","p-md-1", "bg-light");
 
 const divrow4=document.createElement("div");
 
@@ -34,6 +34,7 @@ form.classList.add("form-group")
 
 const inputresult=document.createElement("input");
 inputresult.setAttribute("placeholder","0")
+inputresult.classList.add("form-control","p-4");
 inputresult.id="result";
 
 inputresult.classList.add("form-control","form-control-lg", "mb-2", "bg-secondary");
@@ -57,7 +58,7 @@ const divr5col1= document.createElement("div");
 divr5col1.classList.add("col");
 
 
-const clear=create("button", "clear", "btn-border", "p-3","text-danger", "C", "type", "button");
+const clear=create("button", "clear", "btn-border", "p-lg-4","p-3", "C", "type", "button");
 
 divr5col1.append(clear);
 
@@ -65,14 +66,14 @@ const divr5col2= document.createElement("div");
 
 divr5col2.classList.add("col");
 
-const back=create("button", "back", "btn", "p-3", "border", "<-", "type", "button");
+const back=create("button", "back", "btn", "p-4", "border", "<-", "type", "button");
 
 divr5col2.append(back);
 
 const divr5col3= document.createElement("div");
 
 divr5col3.classList.add("col");
-const dot=create("button", "dot", "btn", "p-3","border",  ".", "type", "button");
+const dot=create("button", "dot", "btn", "p-4","border",  ".", "type", "button");
 
 divr5col3.append(dot);
 
@@ -80,7 +81,7 @@ const divr5col4= document.createElement("div");
 
 divr5col4.classList.add("col");
 
-const multiply=create("button", "multiply", "btn-border", "p-3","text-primary", "X", "type", "button");
+const multiply=create("button", "multiply", "btn-border", "p-4","text-primary", "X", "type", "button");
 
 divr5col4.append(multiply);
 
@@ -95,7 +96,7 @@ const divr6col1= document.createElement("div");
 divr6col1.classList.add("col");
 
 
-const seven=create("button", "7", "btn", "p-3","border", "7", "type", "button");
+const seven=create("button", "7", "btn", "p-4","border", "7", "type", "button");
 
 divr6col1.append(seven);
 
@@ -103,14 +104,14 @@ const divr6col2= document.createElement("div");
 
 divr6col2.classList.add("col");
 
-const eight=create("button", "8", "btn", "p-3", "border", "8", "type", "button");
+const eight=create("button", "8", "btn", "p-4", "border", "8", "type", "button");
 
 divr6col2.append(eight);
 
 const divr6col3= document.createElement("div");
 
 divr6col3.classList.add("col");
-const nine=create("button", "9", "btn", "p-3","border",  "9", "type", "button");
+const nine=create("button", "9", "btn", "p-4","border",  "9", "type", "button");
 
 divr6col3.append(nine);
 
@@ -118,7 +119,7 @@ const divr6col4= document.createElement("div");
 
 divr6col4.classList.add("col");
 
-const divide=create("button", "divide", "btn-border", "p-3","text-primary", "/", "type", "button");
+const divide=create("button", "divide", "btn-border", "p-4","text-primary", "/", "type", "button");
 
 divr6col4.append(divide);
 
@@ -133,7 +134,7 @@ const divr7col1= document.createElement("div");
 divr7col1.classList.add("col");
 
 
-const four=create("button", "4", "btn", "p-3","border", "4", "type", "button");
+const four=create("button", "4", "btn", "p-4","border", "4", "type", "button");
 
 divr7col1.append(four);
 
@@ -141,14 +142,14 @@ const divr7col2= document.createElement("div");
 
 divr7col2.classList.add("col");
 
-const five=create("button", "5", "btn", "p-3", "border", "5", "type", "button");
+const five=create("button", "5", "btn", "p-4", "border", "5", "type", "button");
 
 divr7col2.append(five);
 
 const divr7col3= document.createElement("div");
 
 divr7col3.classList.add("col");
-const six=create("button", "6", "btn", "p-3","border",  "6", "type", "button");
+const six=create("button", "6", "btn", "p-4","border",  "6", "type", "button");
 
 divr7col3.append(six);
 
@@ -156,7 +157,7 @@ const divr7col4= document.createElement("div");
 
 divr7col4.classList.add("col");
 
-const subtract=create("button", "subtract", "btn-border", "p-3","text-primary", "-", "type", "button");
+const subtract=create("button", "subtract", "btn-border", "p-4","text-primary", "-", "type", "button");
 
 divr7col4.append(subtract);
 
@@ -172,7 +173,7 @@ const divr8col1= document.createElement("div");
 divr8col1.classList.add("col");
 
 
-const one=create("button", "1", "btn", "p-3","border", "1", "type", "button");
+const one=create("button", "1", "btn", "p-4","border", "1", "type", "button");
 
 divr8col1.append(one);
 
@@ -180,14 +181,14 @@ const divr8col2= document.createElement("div");
 
 divr8col2.classList.add("col");
 
-const two=create("button", "2", "btn", "p-3", "border", "2", "type", "button");
+const two=create("button", "2", "btn", "p-4", "border", "2", "type", "button");
 
 divr8col2.append(two);
 
 const divr8col3= document.createElement("div");
 
 divr8col3.classList.add("col");
-const three=create("button", "3", "btn", "p-3","border",  "3", "type", "button");
+const three=create("button", "3", "btn", "p-4","border",  "3", "type", "button");
 
 divr8col3.append(three);
 
@@ -195,7 +196,7 @@ const divr8col4= document.createElement("div");
 
 divr8col4.classList.add("col");
 
-const add=create("button", "add", "btn-border", "p-3","text-primary", "+", "type", "button");
+const add=create("button", "add", "btn-border", "p-4","text-primary", "+", "type", "button");
 
 divr8col4.append(add);
 
@@ -208,16 +209,16 @@ divrow9.classList.add("row","mb-2");
 
 const divr9col3= document.createElement("div");
 
-divr9col3.classList.add("col");
-const zero=create("button", "0", "btn", "p-3","border",  "0", "type", "button");
+divr9col3.classList.add("col-3");
+const zero=create("button", "0", "btn", "p-4","border",  "0", "type", "button");
 
 divr9col3.append(zero);
 
 const divr9col4= document.createElement("div");
 
-divr9col4.classList.add("col");
+divr9col4.classList.add("col-3");
 
-const zero0=create("button", "zero0", "btn", "p-3","border", "00", "type", "button");
+const zero0=create("button", "zero0", "btn", "border","p-4", "00", "type", "button");
 
 divr9col4.append(zero0);
 
@@ -225,12 +226,12 @@ const divr9col5 =document.createElement("div");
 
 
 
-divr9col5.classList.add("col","bg-primary","pl-2","pr-2");
-//const equal=create("button", "equal", "btn-border", "p-3","text-white", "=", "type", "button");
+divr9col5.classList.add("col","bg-primary","p-2", "pb-2","mx-lg-4","ml-5");
+//const equal=create("button", "equal", "btn-border", "p-4","text-white", "=", "type", "button");
 
 
 const equal=document.createElement("button");
-equal.classList.add("btn","bg-primary","px-5","text-white", "py-3", "mx-3");
+equal.classList.add("btn","bg-primary","px-5","text-white", "py-lg-3");
 equal.setAttribute("type", "button");
 equal.id="equal";
 
